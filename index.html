@@ -1,0 +1,308 @@
+<!DOCTYPE HTML>
+<!--
+    Adapted from
+	Prologue 1.0 by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>John Slankas</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="Personal website for John Slankas" />
+		<meta name="keywords" content="slankas, software developer,software architect,java,software engineer,soa,nosql,database,computer science,phd, natural language parsing" />
+
+		<link rel="apple-touch-icon" href="/icons/touch-icon-iphone.png" />
+		<link rel="apple-touch-icon" sizes="120x120" href="/icons/touch-icon-iphone-retina.png" />
+		<link rel="apple-touch-icon" sizes="152x152" href="/icons/touch-icon-ipad-retina.png" />
+
+		<!-- <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600" rel="stylesheet" type="text/css" /> -->
+		<!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
+		<script src="js/jquery.min.js"></script>
+		<script src="js/skel.min.js"></script>
+		<script src="js/skel-panels.min.js"></script>
+		<script src="js/init.js"></script>			
+		<noscript>
+			<link rel="stylesheet" href="/css/skel-noscript.css" />
+			<link rel="stylesheet" href="/css/style.css" />
+			<link rel="stylesheet" href="/css/style-wide.css" />
+		</noscript>
+		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie8.css" /><![endif]-->
+	</head>
+	<body>
+
+		<!-- Header -->
+			<div id="header" class="skel-panels-fixed">
+
+				<div class="top">
+
+					<!-- Logo -->
+						<div id="logo">
+							<!--<span class="image avatar48"><img src="images/avatar.jpg" alt="" /></span>-->
+							<h1 id="title">John Slankas</h1>
+							<span class="jobtitle">PhD Candidate</span>
+							<span class="byline">North Carolina State University</span>
+							<span class="byline"><a href="mailto:john@slankas.net">john@slankas.net</a></span>
+						</div>
+
+					<!-- Nav -->
+						<nav id="nav">
+							<ul>
+								<li><a href="#top" id="top-link" class="skel-panels-ignoreHref"><span class="icon icon-home">About Me</span></a></li>
+								<li><a href="#dissertation" id="dissertation-link" class="skel-panels-ignoreHref"><span class="icon icon-book">PhD Dissertation</span></a></li>
+								<li><a href="#publications" id="publications-link" class="skel-panels-ignoreHref"><span class="icon icon-folder-close">Publications</span></a></li>
+								<li><a href="#professional" id="professional-link" class="skel-panels-ignoreHref"><span class="icon icon-briefcase">Professional Experience</span></a></li>
+								<li><a href="#teaching" id="teaching-link" class="skel-panels-ignoreHref"><span class="icon icon-group">Teaching Experience</span></a></li>
+								<li><a href="#education" id="education-link" class="skel-panels-ignoreHref"><span class="icon icon-pencil">Education</span></a></li>
+								<li><a href="#sites" id="sites-link" class="skel-panels-ignoreHref"><span class="icon icon-globe">Sites</span></a></li>
+								<li><a href="#visuals" id="visuals-link" class="skel-panels-ignoreHref"><span class="icon icon-signal">Visualizations</span></a></li>
+							</ul>
+						</nav>
+						
+				</div>
+				
+				<div class="bottom">
+
+					<!-- Social Icons -->
+						<ul class="icons">
+							<li><a href="https://www.facebook.com/slankas" class="icon icon-facebook"><span>Facebook</span></a></li>
+							<li><a href="http://www.linkedin.com/in/johnslankas" class="icon icon-linkedin"><span>Linked In</span></a></li>
+							<li><a href="https://twitter.com/JohnSlankas" class="icon icon-twitter"><span>Twitter</span></a></li>
+							<li><a href="mailto:john@slankas.net" class="icon icon-envelope"><span>Email</span></a></li>
+						</ul>
+				
+				</div>
+			
+			</div>
+
+		<!-- Main -->
+			<div id="main">
+			
+				<!-- Intro -->
+					<section id="top" class="one">
+						<div class="container">
+							<header>
+								<h2>About Me</h2>
+							</header>
+							
+							<p align=left>Currently, I am PhD graduate student in Computer Science at North Carolina State University in Raleigh, NC.  My research focuses on finding access control policies in natural language text and implementing those policies in the technical environment (i.e., database or application).
+							</p>
+							<p>Prior to my return to graduate school, I led several teams producing enterprise-wide intranet applications for the human resources and information security groups at Wachovia Corporation.
+							</p>
+
+							<footer>
+							<p style="text-align: center"><a href="cv.pdf">Curriculum Vitae</a>&nbsp;&nbsp;<a href="resume.pdf">Résumé</a></p>			
+							</footer>
+
+						</div>
+					</section>
+					
+				<!-- Portfolio -->
+					<section id="dissertation" class="two">
+						<div class="container">
+					
+							<header>
+								<h2>PhD Dissertation</h2>
+							</header>
+							
+							<p>
+							With over forty years of use and refinement, access control, often in the form of access control rules (ACRs), remains a significant and widely-used control mechanism for information security. ACRs regulate who can perform specific actions on specific resources within a software-intensive system and are considered a critical component to ensure both confidentiality and integrity. Although software can and does implement access control at the application layer, failure to enforce data access controls at the persistence layer may allow uncontrolled data access when individuals bypass application controls or the ACRs are inconsistently implemented. <i>Our research goal is to improve security and compliance by ensuring access control rules explicitly and implicitly defined within unconstrained natural language product artifacts are appropriately enforced within a system's relational database.</i> Access control implemented in both the application and persistence layers strongly supports a defense in depth strategy. We specify a tool-based process to 1) parse existing, unconstrained natural language product artifacts; 2) classify whether or not a sentence in the product artifact implies access control and whether or not the sentence implies database model elements; and, as appropriate, 3) extract ACR elements; 4) extract database model elements; 5) map extracted data model to a database schema; and 6) implement role-based access control (RBAC) within a relational database</p>
+							<p>&nbsp;<p>
+							<a href="http://repository.lib.ncsu.edu/ir/bitstream/1840.16/10197/1/etd.pdf">Dissertation</a>
+							</ol>
+						</div>
+					</section>
+
+				<!-- About Me -->
+					<section id="publications" class="three">
+						<div class="container">
+
+							<header>
+								<h2>Publications</h2>
+							</header>
+								<h4>Conferences, Workshops, and Symposiums</h4>
+								<ul>
+								<li>J. Slankas, X. Xiao, L. Williams, and T. Xie, "Relation Extraction for Inferring Access Control Rules from Natural Language Artifacts" , 2014 Annual Computer Security Applications Conference (ACSAC 2014), New Orleans, LA. (to appear)</li>
+								<li>M. Riaz, J. Slankas, J. King, and L. Williams, "Using Templates to Elicit Implied Security Requirements from Functional Requirements − A Controlled Experiment", ACM / IEEE  8th International Symposium on Empirical Software Engineering and Measurement  (ESEM 2014), Torino, Italy, September 18-19, 2014</li>
+								<li>M. Riaz, J. King, J. Slankas, and L. Williams, "Hidden in Plain Sight: Automatically Identifying Security Requirements from Natural Language Artifacts", 2014 Requirements Engineering  (RE 2014), Karlskrona, Sweeden, August 25-29, 2014 <a href="/papers/re14main-hidden-in-plain-sight-preprint.pdf">Paper</a>&nbsp;&nbsp;&nbsp;<a href="/papers/RE2014-v0.5.pptx">Presentation</a></li>
+								<li>J. Slankas and L. Williams, "Access Control Policy Extraction from Unconstrained Natural Language Text", <i>2013 ASE/IEEE International Conference on Privacy, Security, Risk, and Trust</i> (PASSAT 2013),  Washington D.C., USA, September 8-14, 2013. (Acceptance Rate: 9.6%) <a href="/papers/passat2013_slankas.pdf">Paper</a>&nbsp;&nbsp;&nbsp;<a href="/papers/passat2013_presentation.pptx">Presentation</a></li>
+								<li>J. Slankas and L. Williams, "Automated Extraction of Non-functional Requirements in Available Documentation", <i>1st International Workshop on Natural Language Analysis in Software Engineering</i> (NaturaLiSE 2013), San Francisco, CA. <a href='/papers/icsews13naturalise_slankas_preprint.pdf'>Paper</a>&nbsp;&nbsp;&nbsp;<a href='/papers/icsews13natralise_slankas.pptx'>Presentation</a></li>
+								<li>J. Slankas, "Implementing Database Access Control Policy from Unconstrained Natural Language Text",  <i>35th International Conference on Software Engineering - Doctoral Symposium</i> (ICSE DS 2013), San Francisco, CA.  <a href='/papers/icse13doctoral_slankas_preprint.pdf'>Paper</a></li>
+								<li>J. Slankas and L. Williams, "Classifying Natural Language Sentences for Policy",  <i>IEEE International Symposium on Policies for Distributed Systems and Networks</i> (POLICY 2012), Chapel Hill, NC. <a href='/papers/2012PolicySlankas.pdf'>Paper</a></li>
+								<li>D. Binkley, D. Lawrie, E. Hill, J. Burge, I. Harris, R. Hebig, O. Keszocze, K. Reed and J. Slankas, "Task Driven Software Summarization", <i>29th IEEE International Conference on Software Maintenance</i> (ICSM 2013), Eindhoven, The Netherlands.</li>
+								</ul>
+								<p>
+								<h4>Journals</h4>
+								<ul>
+								<li>J. Slankas and L. Williams, 2013. Access Control Policy Identification and Extraction from Project Documentation, <i>Academy of Science and Engineering Science Journal</i>
+									Volume 2, Issue 3. p145-159. <a href='/papers/ASE_Science_2013_Slankas.pdf'>Paper</a>
+								</ul>
+								<p>
+								<!--
+								<h4>Under Submission</h4>
+								<ul>
+								<li>ICSE 2014 - "Discovering Security Requirements from Natural Language Project Artifacts", J. Slankas, M. Riaz, J. King, and L. Williams</li>
+								</ul>
+								-->
+
+						</div>
+					</section>
+			
+				<!-- Contact -->
+					<section id="professional" class="four">
+						<div class="container">
+
+							<header>
+								<h2>Professional Experience</h2>
+							</header>							
+
+							<table>
+							<tr><td><h4>Systems Analysis/Program Senior Manager</h4></td><td align=right><p>January 2006 to June 2009</p></td></tr>
+							<tr><td colspan=2>
+							<p>
+							Wachovia Corporation, Charlotte, NC<br>
+							Led team of seven professionals to design, develop, operate, and maintain custom identity management based applications to support Wachovia’s Information Security Group.
+							<p>
+							<i>Responsibilities</i>:
+							<ul>
+							  <li>Provide technical guidance, leadership, support and training for the development and maintenance of applications.
+							  <li>Partner with peers in Wachovia’s Information Security Group to identify and specify complex business requirements and processes. Lead team in the application design, testing and implementation of those requirements and processes.
+							  <li>Coordinate application changes with the client area, development staff, operations, network, security and IT technical staff.
+							  <li>Mentor employees.
+							</ul>
+							<p>
+							<i>Accomplishments</i>:
+							<ul>
+							  <li>Ensured system access reviews of over 120,000 employees performed on a triannual basis, a critical activity to meet compliance and regulatory standards.
+							  <li>Oversaw development and operational support of a system to request, approve, and provision access requests. System performed over 20,000 requests per month with most requests automatically provisioned.
+							  <li>Developed and supported system to track critical HR transactions related to identity management needs.  System automatically notified other systems to change access controls based upon employee transfers and terminations.
+						    </ul>
+							</td></tr>
+							<tr><td colspan=2><hr width=70%></td></tr>
+
+							<tr><td><h4>Web Group Leader</h4></td><td align=right><p>September 1999 to December 2005</p></td></tr>
+							<tr><td colspan=2>
+							<p>
+							Wachovia Corporation, Charlotte, NC<br>
+							Led team of six professionals responsible for developing and maintaining customized web applications for Wachovia’s Human Resources Division.
+							<p>
+							<i>Accomplishments</i>:
+							<ul>
+								<li>Led team to develop, deploy and maintain HR Online. This internally built application provides employee self-service transactions, manager self-service transactions, job postings, HR Handbook, and corporate directory. Over 99% of the active employee population accessed the application. Over 25,000 users access the application on a daily basis. HR Online provides tremendous cost savings to the corporation by automatically processing transactions into the payroll system. System processes over 50,000 transactions and 8,500 job applications monthly. Application is available through Wachovia’s intranet as well as the Internet.
+								<li>Developed application to send out targeted email to various population groups.
+								<li>Developed real-time interface to synchronize corporate LDAP servers with HR data
+								<li>Developed and maintain disaster recovery architecture and processes for applications
+						    </ul>
+						    </td></tr>
+						    <tr><td colspan=2><hr width=70%></td></tr>
+							<tr><td><h4>Senior Consultant</h4></td><td align=right><p>June 1998 to August 1999</p></td></tr>
+							<tr><td colspan=2>
+							<p>
+							Sybase, Inc., Atlanta, GA<br>
+							Designed and developed Java solutions for a large national bank. These solutions enabled the bank to effectively manage employees and the company’s organizational structure. Other developed solutions supported the company’s intranet environment. These solutions involved design, development, and testing of Java applets and applications as well as database work with data modeling and performance & tuning. Teamed and mentored with bank employees to complete these projects. Taught Sybase’s Fast Track to Java and Rapid Application Development with PowerJ courses. Team leader of three consultants.
+						    </td></tr>
+						    <tr><td colspan=2><hr width=70%></td></tr>
+							<tr><td><h4>Software Engineer / Captain</h4></td><td align=right><p>June 1996 to June 1998</p></td></tr>
+							<tr><td colspan=2>
+							<p>
+							USAF - National Security Agency, Ft. Meade, MD<br>
+							Led a seven-person database team. Designed, developed, and maintained a wide variety of database applications and automatic processing software using object-oriented and structured design methods. Applications and databases enabled the division to process mission critical data in a timely manner. Met regularly with customers to discuss requirements receive feedback on existing and developing systems. Organized and taught weekly sessions in such areas as HTML, CGI, Java, optimization, and usability to improve the knowledge of division personnel.
+						    <tr><td colspan=2><hr width=70%></td></tr>
+							<tr><td><h4>Software Process Engineer / First Lieutenant</h4></td><td align=right><p>May 1994 to May 1996</p></td></tr>
+							<tr><td colspan=2>
+							<p>
+							USAF - Space and Warning Systems Center, Peterson AFB, CO<br>
+							Designed, developed, and maintained a database workflow application to track software changes, problems, and requests for large-scale military systems at NORAD. Insured the application helped the organization perform various key process areas of the SEI’s Capability Maturity Model. The application reduced maintenance costs through automated configuration control, reducing time to staff and analyze problems reports, tracking milestones, and eliminating change traceability problems.
+						    </td></tr>
+							</table>
+						</div>
+					</section>
+
+				<!-- Contact -->
+					<section id="teaching" class="five">
+						<div class="container">
+
+							<header>
+								<h2>Teaching Experience</h2>
+							</header>
+							<h4>Course Instructor</h4>
+							<ul>
+							<li>Spring 2011 - CSC 116: Introduction to Computing - Java (North Carolina State University)</li>
+							<li>Summer 1993 - CSC 430: Software Engineering (University of Arizona)</li>
+							</ul>
+							<p>
+							<h4>Teaching Assistant</h4>
+							<ul>
+							<li>Fall 2010 - CSC 591: Software Security (North Carolina State University)</li>
+							<li>Spring 2010 - CSC 512: Compilers (North Carolina State University)</li>
+							<li>Fall 2009 - CSC 517: Object-Oriented Languages and Systems (North Carolina State University)</li>
+							<li>Fall 1993 - CSC 430: Software Engineering (University of Arizona)</li>
+
+						
+						</div>
+					</section>		
+					<section id="education" class="six">
+						<div class="container">
+
+							<header>
+								<h2>Education</h2>
+							</header>
+							<p>
+							Ph.D., Computer Science, <a href="http://ncsu.edu">North Carolina State University</a>, 2014 (expected)<br>
+							M.S., Computer Science, <a href="http://arizona.edu">University of Arizona</a>, 1993<br>
+							B.S., Mathematics, <a href="http://nd.edu">University of Notre Dame</a>, 1992
+							</p>
+						
+						</div>
+					</section>	
+					<section id="sites" class="seven">
+						<div class="container">
+
+							<header>
+								<h2>Sites</h2>
+							</header>
+							<p>
+							<ul>
+							<li><a href="http://irishwildcat.com">Personal Blog</a></li>
+							<li><a href="http://photos.irishwildcat.com">Personal Photos</a></li>
+							<p>
+							<li><a href="http://realsearchgroup.com">Realseachgroup - Software Engineering research at NCSU</a></li>
+							<li><a href="http://www.csc.ncsu.edu">NCSU Department of Computer Science</a></li>
+							<p>
+							<li><a href="http://www.acm.org">Association for Computing Machinery (ACM)</a></li>
+							<li><a href="http://www.computer.org/">IEEE Computer Society</a></li>
+							</ul>
+							</p>
+						
+						</div>
+					</section>	
+					<section id="visuals" class="eight">
+						<div class="container">
+
+							<header>
+								<h2>Visualizations</h2>
+							</header>
+							<p>
+							<ul>
+							<li><a href="http://irishwildcat.com/2013/10/31/visualizing-stackoverflow-keywords-from-fall-2012/">Stack Overflow: Tags and Relationships</a></li>
+							<li>more to be posted ...</li>
+							</ul>
+							</p>
+						
+						</div>
+					</section>								
+			</div>
+
+		<!-- Footer -->
+			<div id="footer">
+				
+				<!-- Copyright -->
+					<div class="copyright">
+						<p>&copy; 2014 John Slankas. All rights reserved.</p>
+					</div>
+			</div>
+
+	</body>
+
+</html>
